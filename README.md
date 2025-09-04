@@ -1,7 +1,7 @@
 
 ----
 
-# 🤖 Deep Learning Solutions for Securing Blockchain Networks
+# 🌊 Deep Learning Solutions for Securing Blockchain Networks
 
 This project presents a robust framework that utilizes deep learning models to identify and mitigate Sybil and 51% attacks, two significant threats to blockchain network security. The solution focuses on analyzing network behavior and user patterns to ensure the integrity and resilience of distributed ledger technology.
 
@@ -9,11 +9,11 @@ This project presents a robust framework that utilizes deep learning models to i
 
 ## 📖 Table of Contents
 
-  * [🌟 Project Overview](https://www.google.com/search?q=%23-project-overview)
-  * [🚀 Features](https://www.google.com/search?q=%23-features)
-  * [🧠 Methodology](https://www.google.com/search?q=%23-methodology)
-  * [🛠️ How to Run](https://www.google.com/search?q=%23%EF%B8%8F-how-to-run)
-  * [🔮 Future Work](https://www.google.com/search?q=%23-future-work)
+  * [🌟 Project Overview]
+  * [🚀 Features]
+  * [🧠 Methodology]
+  * [🛠️ How to Run]
+  * [🔮 Future Work]
 
 -----
 
@@ -50,26 +50,50 @@ The core of this project is the implementation of deep learning models designed 
 
 The deep learning model was trained on the prepared dataset, and its performance was evaluated using standard metrics such as accuracy, precision, and recall. The results demonstrated the model's high effectiveness in identifying and mitigating the targeted attacks.
 
+
 -----
 
-## 🛠️ How to Run
+### 🛠️ How to Run
 
-This project can be configured and run using Python.
+To run the project, you'll need to set up your Python environment with the following dependencies. The project was developed using **Anaconda 2.6.3**, **Jupyter Notebook**, and **Python 3.1**.
+
+The following libraries are required and can be installed using `pip` or `conda`:
+
+  * **pandas**
+  * **numpy**
+  * **seaborn**
+  * **matplotlib**
+  * **scikit-learn** (`sklearn`)
+  * **tensorflow**
+  * **itertools**
+
+If you are using **pip**, run the following commands in your terminal or command prompt:
+
+```bash
+pip install pandas numpy seaborn matplotlib scikit-learn tensorflow
+```
+
+Note that `itertools` is a built-in Python library and does not need to be installed separately.
+
+Once the dependencies are installed, you can proceed with the following steps:
 
 1.  **Clone the repository:**
+
     ```bash
     git clone https://github.com/your-username/your-repository-name.git
     ```
+
 2.  **Navigate to the project directory:**
+
     ```bash
     cd your-repository-name
     ```
-3.  **Install the required dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-4.  **Run the main script or Jupyter Notebook:**
-    This project may use a combination of Python scripts and Jupyter Notebooks for data analysis and model execution. Please refer to the specific configuration manual for detailed instructions on how to run the models and test the system.
+
+3.  **Open the Jupyter Notebook** from your project directory and run the code cells in the notebook. The project follows the **CRISP-DM** (Cross-Industry Standard Process for Data Mining) framework and involves the following stages:
+
+      * **Data Preparation:** The NSL-KDD dataset is loaded, pre-processed (normalization, one-hot encoding), and split into training and validation sets.
+      * **Modeling:** Deep learning models, including CNN, RNN, LSTM, and a hybrid CNN+LSTM, are built for attack detection.
+      * **Evaluation:** Model performance is assessed using metrics like accuracy, precision, recall, and F1 score.
 
 -----
 
