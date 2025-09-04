@@ -80,13 +80,13 @@ Once the dependencies are installed, you can proceed with the following steps:
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/your-repository-name.git
+    git clone https://github.com/Tbhuvan/Deeplearning-Solutions-for-Blockchain-Security.git
     ```
 
 2.  **Navigate to the project directory:**
 
     ```bash
-    cd your-repository-name
+    cd Deeplearning-Solutions-for-Blockchain-Security
     ```
 
 3.  **Open the Jupyter Notebook** from your project directory and run the code cells in the notebook. The project follows the **CRISP-DM** (Cross-Industry Standard Process for Data Mining) framework and involves the following stages:
